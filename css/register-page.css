@@ -37,6 +37,7 @@ input {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    font-size: 18px;
     color: var(--text-col);
     background-color: var(--button-col);
 }
