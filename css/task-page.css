@@ -58,11 +58,10 @@ input {
     transition: width 0.5s;
 }
 
-.room-code:focus + .new-task {
+.new-task:has(~ .room-code:focus) {
     width: 90px;
     transition: width 0.5s;
 }
-
 
 .settings-container {
     display: flex;
