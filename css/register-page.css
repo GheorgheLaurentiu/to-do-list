@@ -3,6 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 :root {
     --background-col: #1F1F1F;
     --button-col: #303030;
+    --button-active-col: #171717;
     --text-col: #FFFFFF;
     font-family: "Roboto", sans-serif;
 }
@@ -67,6 +68,6 @@ input {
 }
 
 .btn:active {
-    background-color: darken(var(--button-col), 10%);
+    background-color: var(--button-active-col);
     transform: scale(0.95);
 }
