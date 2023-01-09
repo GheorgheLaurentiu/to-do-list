@@ -65,21 +65,25 @@ input {
 }
 
 .settings-container {
-    display: flex;
-    justify-content: row;
+    display: grid;
+    place-items: left;
     align-items: center;
-    justify-content: left;
+    grid-template-columns: 10% 90%;
     padding: 20px 20px 20px 0px;
-    /* background-color: red; */
     color: var(--text-col);
-    width: 500px;
+    width: 520px;
     font-size: 20px;
 }
 
-.gear, .name {
-    margin: 10px;
+.gear {
+    grid-column-start: 1;
+    font-size: 50px;
 }
 
-.gear {
-    font-size: 40px;
+.name {
+    grid-column-start: 2;
+}
+
+.gear:active {
+    transform: scale(0.95);
 }
