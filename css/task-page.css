@@ -33,7 +33,7 @@ input {
     transition: width 0.5s;
 }
 
-.new-task:has(~ .room-code:focus) {
+.new-task:has( .room-code:focus) {
     width: 90px;
     transition: width 0.5s;
 }
