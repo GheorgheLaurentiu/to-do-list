@@ -24,7 +24,7 @@ include './backend/sessionCheck.php'
 
     <div class="main-container">
         <div class="title-container">
-            <div class="back" onclick=$backButton>◀</div>
+        <div class="back" onclick="window.location.href='./task-page.php'">◀</div>
             <div class="page-title">Settings</div>
         </div>
         <div class="btn history">Task History</div>

@@ -42,7 +42,7 @@
                         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
                         $stmt->bind_param('sss', $_POST['email'], $password, $_POST['username']);
                         $stmt->execute();
-                        header('Location: login-page.html');
+                        header('Location: ../login-page.php');
                         exit;
                         // echo '<h1>You have succesfully registered</h2> <h1>Click here to go back to the home page -></h2>';
                         // echo '<a href="./index.html">Home</a>';

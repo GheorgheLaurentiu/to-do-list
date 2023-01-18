@@ -23,7 +23,7 @@ if (isset($_SESSION['loggedin'])) {
     <div class="main-container">
         <div class="page-title">To-Do List</div>
         <div class="btn-container">
-            <div class="btn login" onclick="window.location.href='./login-page.html'">Login</div>
+            <div class="btn login" onclick="window.location.href='./login-page.php'">Login</div>
             <div class="btn register" onclick="window.location.href='./register-page.html'">Register</div>
         </div>
     </div>
