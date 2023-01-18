@@ -39,11 +39,11 @@
             <input type="password" placeholder="Password" name="password" id="password" maxlength="32" />
             <!-- De stilizat checkboxul-->
             <input type="checkbox" onclick="showPassword()">
-            <input  type="submit" class="btn login" value="LogIn" />
+            <div class="btn-container">
+                <button class="btn login" type="submit">Login</button>
+                <div class="btn back" onclick="window.location.href='./index.php'">Back</div>
+            </div>
         </form>
-        <div class="btn-container">
-            <div class="btn back" onclick="window.location.href='./index.php'">Back</div>
-        </div>
     </div>
 </body>
 

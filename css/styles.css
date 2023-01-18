@@ -14,7 +14,6 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: var(--background-col);
-
 }
 
 .main-container {
@@ -32,4 +31,9 @@ html, body {
     font-size: 36px;
     font-weight: bold;
     margin: 24px 0;
+}
+
+button {
+    border: none;
+    
 }

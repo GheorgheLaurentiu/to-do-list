@@ -11,7 +11,6 @@
 
 <body>
 <?php
-
 include './backend/config.php';
 include './backend/sessionCheck.php'
 ?>
@@ -31,7 +30,7 @@ include './backend/sessionCheck.php'
         <div class="btn email" onclick="changeEmail()">Change Email</div>
         <div class="btn user">Change User</div>
         <div class="btn pass">Change Password</div>
-        <a class="btn log-out" href="./logout.php">Log Out</a>
+        <div class="btn log-out" onclick="window.location.href='./backend/logout.php'">Log Out</div>
         <div class="btn delete">Delete Account</div>
     </div>
 </body>
