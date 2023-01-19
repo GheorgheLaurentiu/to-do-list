@@ -41,9 +41,11 @@
             <input type="checkbox" onclick="showPassword()">
             <div class="btn-container">
                 <button class="btn login" type="submit">Login</button>
-                <div class="btn back" onclick="window.location.href='./index.php'">Back</div>
             </div>
         </form>
+        <div class="btn-container">
+            <button class="btn back" onclick="window.location.href='./index.php'">Back</button>
+        </div>
     </div>
 </body>
 

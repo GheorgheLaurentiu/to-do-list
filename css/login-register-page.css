@@ -11,10 +11,10 @@ input {
 }
 
 .btn-container {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     background-color: var(--background-col);
     user-select: none;
 }
